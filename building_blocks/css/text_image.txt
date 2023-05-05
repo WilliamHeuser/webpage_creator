@@ -1,0 +1,25 @@
+/* text_image */
+.text_image{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: %primary_color%;
+}
+
+.text_image h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.text_image p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.text_image a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}

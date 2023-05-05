@@ -1,0 +1,47 @@
+
+/* animations / utilities */
+.text_image a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.image_text a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.start_section a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .start_section{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .text_image{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+    .image_text{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}

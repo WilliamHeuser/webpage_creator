@@ -1,0 +1,2 @@
+    <div class="navbar">%content%</div>
+    <div class="grid-2">

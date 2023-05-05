@@ -1,0 +1,9 @@
+        <div id="%header%" class="{class_type}" style="width: 100%; overflow: hidden;">
+            <div style="width: 60%; float: left;">
+                <h2>%header%</h2>
+                <p>%paragraph%</p>
+            </div>
+            <div style="margin-left: 61%;"> 
+                <img src="%img%" > 
+            </div>
+        </div>
