@@ -1,0 +1,197 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: '%font_type%', sans-serif;
+    background-color: #101214;
+    color: #7A7C80;
+}
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+
+img {
+    max-width:90%;
+    max-height:90%;
+    border-radius: %img_roundness%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+p {
+    max-width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* start_section */
+.start_section{
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    text-align: center;
+    background-color: %start_background_color%;
+    background-image: url("%start_background_img%");
+    background-size: cover;
+}
+
+.start_section p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.start_section h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.start_section a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
+/* primary */
+.primary{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: %primary_color%;
+}
+
+.primary h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.primary p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+    color: #262729;
+}
+
+.primary a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+
+/* secondary */
+.secondary{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: %secondary_color%;
+}
+
+.secondary h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.secondary p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+    color: #262729;
+}
+
+.secondary a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+
+/* animations / utilities */
+.primary a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.secondary a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.start_section a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .start_section{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .primary{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+    .secondary{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}

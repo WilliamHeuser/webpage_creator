@@ -1,0 +1,51 @@
+{
+	"section1": {
+		"type": "start_section",
+		"content": {
+			"%header%": "Home",
+			"%webpage_name%": "Williams hjemmeside",
+			"%address%": "Bodenhoffs plads 13",
+			"%contact_info%": "+45 27508711",
+			"%twitter_tag%": "<i class=\"fab fa-twitter\"></i>",
+			"%twitter_link%": "https://twitter.com",
+			"%instagram_tag%": "<i class=\"fab fa-instagram\"></i>",
+			"%instagram_link%": "",
+			"%facebook_tag%": "<i class=\"fab fa-facebook\"></i>",
+			"%facebook_link%": "https://facebook.com",
+			"%linkedin_tag%": "<i class=\"fab fa-linkedin\"></i>",
+			"%linkedin_link%": ""
+		}
+	},
+	"section2": {
+		"type": "text_image",
+		"content": {
+			"%img%": "section2.jpg",
+			"%header%": "Experience",
+			"%paragraph%": "William Går En Tur! Perferendis quas sint et nihil iusto eius nostrum sit error, repellat optio quisquam! Magnam dolore iusto cumque. Nostrum error iste neque maiores."
+		}
+	},
+	"section3": {
+		"type": "image_text",
+		"content": {
+			"%img%": "section3.jpg",
+			"%header%": "Ældre",
+			"%paragraph%": "Det jazz, og det sving og det boogie dolore iusto cumque. Nostrum error iste neque maiores."
+		}
+	},
+	"section4": {
+		"type": "image_text",
+		"content": {
+			"%img%": "section4.jpg",
+			"%header%": "Henrik Solgaard",
+			"%paragraph%": "Det jazz, og det sving og det boogie dolore iusto cumque. Nostrum error iste neque maiores."
+		}
+	},
+	"section5": {
+		"type": "text_image",
+		"content": {
+			"%img%": "section1.jpg",
+			"%header%": "Erfaring",
+			"%paragraph%": "William Kommer rent faktisk med sin flyver Perferendis quas sint et nihil iusto eius nostrum sit error, repellat optio quisquam! Magnam dolore iusto cumque. Nostrum error iste neque maiores."
+		}
+	}
+}
